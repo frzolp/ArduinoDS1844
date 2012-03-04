@@ -1,0 +1,16 @@
+DS1844 - (Barely) a library for controlling the Dallas Semiconductor/Maxim IC DS1844,
+which is a quad digital potentiometer.
+
+(From the product page at http://www.maxim-ic.com/datasheet/index.mvp/id/2803)
+- Four 64-position potentiometers
+- Operates on 2.7V to 5.5V
+- Offers a 5-wire serial interface or 2-wire addressable interface
+- Comes in 10Kohm, 50Kohm, and 100Kohm versions
+
+This Arduino library provides some shortcuts when working with this chip.
+It makes a couple assumptions:
+	1.) You have the PS pin connected to GND because...
+	2.) You're using the 5-wire serial interface
+
+I hacked this together in about a half hour, so the code is messy but functional. Don't worry,
+I'll be cleaning it up soon enough.
